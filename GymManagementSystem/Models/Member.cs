@@ -1,0 +1,31 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GymManagementSystem.Models
+{
+    public class Member
+    {
+        public int MemberId { get; set; }
+        [Required]
+        public string FullName { get; set; }
+        [Phone]
+        public string PhoneNumber { get; set; }
+        [EmailAddress]
+        public string Email { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public DateTime JoinDate { get; set; } = DateTime.Now;
+        public bool IsActive { get; set; } = true;
+
+
+        // Foreign Keys
+        public int MembershipPlanId { get; set; }
+        public MembershipPlan MembershipPlan { get; set; }
+
+        public int TrainerId { get; set; }
+        public Trainer Trainer { get; set; }
+
+
+        // Navigation
+        public ICollection<Payment> Payments { get; set; }
+        public ICollection<Attendance> Attendances { get; set; }
+    }
+}
