@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GymManagementSystem.Data;
+using GymManagementSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using GymManagementSystem.Data;
-using GymManagementSystem.Models;
 
 namespace GymManagementSystem.Controllers
 {
@@ -22,9 +18,13 @@ namespace GymManagementSystem.Controllers
         // GET: Members
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Members.Include(m => m.MembershipPlan).Include(m => m.Trainer);
-            return View(await applicationDbContext.ToListAsync());
+            var members = _context.Members
+                .Include(m => m.Trainer)
+                .Include(m => m.MembershipPlan);
+
+            return View(await members.ToListAsync());
         }
+
 
         // GET: Members/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -49,8 +49,12 @@ namespace GymManagementSystem.Controllers
         // GET: Members/Create
         public IActionResult Create()
         {
-            ViewData["MembershipPlanId"] = new SelectList(_context.MembershipPlans, "MembershipPlanId", "PlanName");
-            ViewData["TrainerId"] = new SelectList(_context.Trainers, "TrainerId", "FullName");
+            ViewData["MembershipPlanId"] =
+                new SelectList(_context.MembershipPlans,"MembershipPlanId","PlanName");
+
+            ViewData["TrainerId"] =
+                new SelectList(_context.Trainers, "TrainerId","FullName");
+
             return View();
         }
 
@@ -75,20 +79,16 @@ namespace GymManagementSystem.Controllers
         // GET: Members/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
             var member = await _context.Members.FindAsync(id);
-            if (member == null)
-            {
-                return NotFound();
-            }
-            ViewData["MembershipPlanId"] = new SelectList(_context.MembershipPlans, "MembershipPlanId", "PlanName", member.MembershipPlanId);
-            ViewData["TrainerId"] = new SelectList(_context.Trainers, "TrainerId", "FullName", member.TrainerId);
+
+            ViewData["MembershipPlanId"] =
+                new SelectList(_context.MembershipPlans,"MembershipPlanId","PlanName", member.MembershipPlanId);
+            ViewData["TrainerId"] =
+                new SelectList(_context.Trainers,"TrainerId","FullName",member.TrainerId);
+
             return View(member);
         }
+
 
         // POST: Members/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
