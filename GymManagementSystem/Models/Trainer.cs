@@ -10,7 +10,7 @@ namespace GymManagementSystem.Models
         public string Specialization { get; set; }
         public string PhoneNumber { get; set; }
         public decimal Salary { get; set; }
-        public ICollection<Member> Members { get; set; }
+        public ICollection<Member> Members { get; set; } = new List<Member>();
 
 
     }

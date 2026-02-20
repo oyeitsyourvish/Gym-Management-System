@@ -59,8 +59,7 @@ namespace GymManagementSystem.Controllers
         }
 
         // POST: Members/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // To protect from overposting attacks, enable the specific properties you want to bind to
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("MemberId,FullName,PhoneNumber,Email,DateOfBirth,JoinDate,IsActive,MembershipPlanId,TrainerId")] Member member)
@@ -92,7 +91,6 @@ namespace GymManagementSystem.Controllers
 
         // POST: Members/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("MemberId,FullName,PhoneNumber,Email,DateOfBirth,JoinDate,IsActive,MembershipPlanId,TrainerId")] Member member)
