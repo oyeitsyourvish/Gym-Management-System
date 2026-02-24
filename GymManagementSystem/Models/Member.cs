@@ -18,14 +18,15 @@ namespace GymManagementSystem.Models
 
         // Foreign Keys
         public int MembershipPlanId { get; set; }
-        public MembershipPlan MembershipPlan { get; set; }
+        public MembershipPlan? MembershipPlan { get; set; }
 
         public int TrainerId { get; set; }
-        public Trainer Trainer { get; set; }
+        public Trainer? Trainer { get; set; }
 
 
         // Navigation
-        public ICollection<Payment> Payments { get; set; }
-        public ICollection<Attendance> Attendances { get; set; }
+        public ICollection<Payment> Payments { get; set; } = new List<Payment>();
+        public ICollection<Attendance> Attendances { get; set; } = new List<Attendance>();
+
     }
 }

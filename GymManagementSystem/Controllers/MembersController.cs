@@ -64,6 +64,13 @@ namespace GymManagementSystem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("MemberId,FullName,PhoneNumber,Email,DateOfBirth,JoinDate,IsActive,MembershipPlanId,TrainerId")] Member member)
         {
+            if (!ModelState.IsValid)
+            {
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    Console.WriteLine(error.ErrorMessage);
+                }
+            }
             if (ModelState.IsValid)
             {
                 _context.Add(member);
