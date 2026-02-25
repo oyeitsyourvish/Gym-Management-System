@@ -65,7 +65,14 @@
                 @Html.DisplayFor(modelItem => item.JoinDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsActive)
+                    @if (item.IsActive)
+                    {
+                        <span class="badge bg-success">Yes</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">No</span>
+                    }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.MembershipPlan.PlanName)

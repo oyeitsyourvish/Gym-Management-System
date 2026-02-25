@@ -72,6 +72,9 @@ namespace GymManagementSystem.Controllers
                 member.ExpiryDate =
                     member.JoinDate.AddMonths(plan.DurationInMonths);
 
+                member.IsActive = member.ExpiryDate >= DateTime.Now;
+
+
                 _context.Add(member);
                 await _context.SaveChangesAsync();
 

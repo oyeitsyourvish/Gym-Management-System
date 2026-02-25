@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Vishal CSharp\\GymManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,30 +62,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MembersController.cs",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Controllers\\MembersController.cs",
               "RelativeDocumentMoniker": "GymManagementSystem\\Controllers\\MembersController.cs",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Controllers\\MembersController.cs",
               "RelativeToolTip": "GymManagementSystem\\Controllers\\MembersController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowE0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T03:37:35.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Index.cshtml",
               "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Members\\Index.cshtml",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Index.cshtml",
               "RelativeToolTip": "GymManagementSystem\\Views\\Members\\Index.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAArwEoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-20T07:27:07.177Z",
               "EditorCaption": ""
@@ -161,8 +161,7 @@
               "RelativeToolTip": "GymManagementSystem\\Models\\Member.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA/wBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T11:45:45.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T11:45:45.66Z"
             },
             {
               "$type": "Document",
