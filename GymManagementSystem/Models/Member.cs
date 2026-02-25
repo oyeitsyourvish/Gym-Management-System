@@ -14,6 +14,8 @@ namespace GymManagementSystem.Models
         public DateTime DateOfBirth { get; set; }
         public DateTime JoinDate { get; set; } = DateTime.Now;
         public bool IsActive { get; set; } = true;
+        public DateTime ExpiryDate { get; set; }
+
 
 
         // Foreign Keys

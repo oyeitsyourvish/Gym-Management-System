@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Vishal CSharp\\GymManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\controllers\\membershipplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\controllers\\membershipplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,32 +62,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MembersController.cs",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Controllers\\MembersController.cs",
               "RelativeDocumentMoniker": "GymManagementSystem\\Controllers\\MembersController.cs",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Controllers\\MembersController.cs",
               "RelativeToolTip": "GymManagementSystem\\Controllers\\MembersController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAArwE0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T03:37:35.681Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Index.cshtml",
-              "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Trainers\\Index.cshtml",
-              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Index.cshtml",
-              "RelativeToolTip": "GymManagementSystem\\Views\\Trainers\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-20T08:03:17Z"
             },
             {
               "$type": "Document",
@@ -139,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MembershipPlansController.cs",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Controllers\\MembershipPlansController.cs",
               "RelativeDocumentMoniker": "GymManagementSystem\\Controllers\\MembershipPlansController.cs",
@@ -147,12 +135,11 @@
               "RelativeToolTip": "GymManagementSystem\\Controllers\\MembershipPlansController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAvwDQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T19:19:29.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T19:19:29.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TrainersController.cs",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Controllers\\TrainersController.cs",
               "RelativeDocumentMoniker": "GymManagementSystem\\Controllers\\TrainersController.cs",
@@ -160,8 +147,32 @@
               "RelativeToolTip": "GymManagementSystem\\Controllers\\TrainersController.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAmwE4AAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T07:55:56.101Z",
+              "WhenOpened": "2026-02-20T07:55:56.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Member.cs",
+              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "GymManagementSystem\\Models\\Member.cs",
+              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Models\\Member.cs",
+              "RelativeToolTip": "GymManagementSystem\\Models\\Member.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T11:45:45.66Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Index.cshtml",
+              "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Trainers\\Index.cshtml",
+              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Index.cshtml",
+              "RelativeToolTip": "GymManagementSystem\\Views\\Trainers\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T08:03:17Z"
             },
             {
               "$type": "Document",
@@ -186,18 +197,6 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-20T03:48:03.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Member.cs",
-              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Models\\Member.cs",
-              "RelativeDocumentMoniker": "GymManagementSystem\\Models\\Member.cs",
-              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Models\\Member.cs",
-              "RelativeToolTip": "GymManagementSystem\\Models\\Member.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T11:45:45.66Z"
             },
             {
               "$type": "Document",
