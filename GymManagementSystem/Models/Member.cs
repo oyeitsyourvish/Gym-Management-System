@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GymManagementSystem.Models
 {
@@ -15,6 +16,8 @@ namespace GymManagementSystem.Models
         public DateTime JoinDate { get; set; } = DateTime.Now;
         public bool IsActive { get; set; } = true;
         public DateTime ExpiryDate { get; set; }
+        [NotMapped]
+        public bool IsExpired => DateTime.Now > ExpiryDate;
 
 
 

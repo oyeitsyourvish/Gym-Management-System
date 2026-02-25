@@ -36,6 +36,13 @@
             <th>
                 @Html.DisplayNameFor(model => model.Trainer)
             </th>
+            <th>
+                Expiry Date
+            </th>
+            <th>
+                Status
+            </th>
+
             <th></th>
         </tr>
     </thead>
@@ -66,6 +73,21 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Trainer.FullName)
             </td>
+                <td>
+                    @item.ExpiryDate.ToShortDateString()
+                </td>
+
+                <td>
+                    @if (item.IsExpired)
+                    {
+                        <span class="badge bg-danger">Expired</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">Active</span>
+                    }
+                </td>
+
             <td>
                 <a asp-action="Edit" asp-route-id="@item.MemberId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.MemberId">Details</a> |

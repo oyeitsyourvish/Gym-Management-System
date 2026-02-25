@@ -64,23 +64,29 @@ namespace GymManagementSystem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("MemberId,FullName,PhoneNumber,Email,DateOfBirth,JoinDate,IsActive,MembershipPlanId,TrainerId")] Member member)
         {
-            if (!ModelState.IsValid)
-            {
-                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
-                {
-                    Console.WriteLine(error.ErrorMessage);
-                }
-            }
             if (ModelState.IsValid)
             {
+                var plan = await _context.MembershipPlans
+                    .FindAsync(member.MembershipPlanId);
+
+                member.ExpiryDate =
+                    member.JoinDate.AddMonths(plan.DurationInMonths);
+
                 _context.Add(member);
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MembershipPlanId"] = new SelectList(_context.MembershipPlans, "MembershipPlanId", "PlanName", member.MembershipPlanId);
-            ViewData["TrainerId"] = new SelectList(_context.Trainers, "TrainerId", "FullName", member.TrainerId);
+
+            ViewData["MembershipPlanId"] =
+                new SelectList(_context.MembershipPlans, "MembershipPlanId", "PlanName", member.MembershipPlanId);
+
+            ViewData["TrainerId"] =
+                new SelectList(_context.Trainers, "TrainerId", "FullName", member.TrainerId);
+
             return View(member);
         }
+
 
         // GET: Members/Edit/5
         public async Task<IActionResult> Edit(int? id)
