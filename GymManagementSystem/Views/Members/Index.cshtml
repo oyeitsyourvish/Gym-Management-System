@@ -5,108 +5,110 @@
 }
 
 <div class="main-overlay">
-    <h1 class="text-white mb-4">🏋️ Gym Members</h1>
+    <div class="gym-card">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="text-white">🏋️ Gym Members</h1>
 
+            <a asp-action="Create" class="btn btn-success">
+                ➕ Add Member
+            </a>
+        </div>
 
-<p>
-        <a asp-action="Create" class="btn btn-success mb-3">
-            ➕ Add New Member
-        </a>
+        <table class="table table-dark table-hover shadow-lg rounded">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FullName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PhoneNumber)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DateOfBirth)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.JoinDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsActive)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.MembershipPlan)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Trainer)
+                    </th>
+                    <th>
+                        Expiry Date
+                    </th>
+                    <th>
+                        Status
+                    </th>
 
-</p>
-    <table class="table table-dark table-hover shadow-lg rounded">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FullName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PhoneNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateOfBirth)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.JoinDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsActive)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MembershipPlan)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Trainer)
-            </th>
-            <th>
-                Expiry Date
-            </th>
-            <th>
-                Status
-            </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FullName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PhoneNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DateOfBirth)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.JoinDate)
+                        </td>
+                        <td>
+                            @if (item.IsActive)
+                            {
+                                <span class="badge bg-success px-3 py-2">Yes</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger px-3 py-2">No</span>
+                            }
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MembershipPlan.PlanName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Trainer.FullName)
+                        </td>
+                        <td>
+                            @item.ExpiryDate.ToShortDateString()
+                        </td>
 
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PhoneNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateOfBirth)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.JoinDate)
-            </td>
-            <td>
-                    @if (item.IsActive)
-                    {
-                        <span class="badge bg-success">Yes</span>
-                    }
-                    else
-                    {
-                        <span class="badge bg-danger">No</span>
-                    }
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MembershipPlan.PlanName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Trainer.FullName)
-            </td>
-                <td>
-                    @item.ExpiryDate.ToShortDateString()
-                </td>
+                        <td>
+                            @if (item.IsExpired)
+                            {
+                                <span class="badge bg-danger">Expired</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Active</span>
+                            }
+                        </td>
 
-                <td>
-                    @if (item.IsExpired)
-                    {
-                        <span class="badge bg-danger">Expired</span>
-                    }
-                    else
-                    {
-                        <span class="badge bg-success">Active</span>
-                    }
-                </td>
-
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.MemberId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MemberId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MemberId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.MemberId">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.MemberId">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.MemberId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
