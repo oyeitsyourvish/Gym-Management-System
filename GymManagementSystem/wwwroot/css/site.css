@@ -73,3 +73,32 @@ table {
     transform: scale(1.01);
     transition: 0.2s;
 }
+
+
+/* ---------- FORM CARD ---------- */
+.form-card {
+    background: rgba(0,0,0,0.65);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    color: white;
+}
+
+/* ---------- INPUT STYLE ---------- */
+.form-control {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 10px;
+}
+
+/* ---------- LABEL ---------- */
+.control-label {
+    font-weight: 600;
+}
+
+/* ---------- BUTTON ---------- */
+.btn-primary {
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+
