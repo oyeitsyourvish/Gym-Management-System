@@ -22,8 +22,16 @@ namespace GymManagementSystem.Controllers
                 .Include(m => m.Trainer)
                 .Include(m => m.MembershipPlan);
 
-            return View(await members.ToListAsync());
+            var list = await members.ToListAsync();
+
+            // Dashboard counts
+            ViewBag.TotalMembers = list.Count;
+            ViewBag.ActiveMembers = list.Count(m => !m.IsExpired);
+            ViewBag.ExpiredMembers = list.Count(m => m.IsExpired);
+
+            return View(list);
         }
+
 
 
         // GET: Members/Details/5
