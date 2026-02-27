@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "E:\\Vishal CSharp\\GymManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\trainers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\trainers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\trainers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\trainers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\members\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\members\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\trainers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\trainers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\trainers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\trainers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\members\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\members\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\members\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\members\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\members\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\members\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\trainers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\trainers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\trainers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\trainers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\trainers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\trainers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\trainers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|solutionrelative:gymmanagementsystem\\views\\trainers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99E3B8B2-93F2-49F7-ABB6-DDC569E624C8}|GymManagementSystem\\GymManagementSystem.csproj|e:\\vishal csharp\\gymmanagementsystem\\gymmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,102 +66,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Index.cshtml",
-              "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Trainers\\Index.cshtml",
-              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Index.cshtml",
-              "RelativeToolTip": "GymManagementSystem\\Views\\Trainers\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Details.cshtml",
+              "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Members\\Details.cshtml",
+              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Details.cshtml",
+              "RelativeToolTip": "GymManagementSystem\\Views\\Members\\Details.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T21:22:48.482Z",
+              "WhenOpened": "2026-02-27T19:02:35.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Members\\Delete.cshtml",
+              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Delete.cshtml",
+              "RelativeToolTip": "GymManagementSystem\\Views\\Members\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T19:01:57.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Create.cshtml",
+              "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Members\\Create.cshtml",
+              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Create.cshtml",
+              "RelativeToolTip": "GymManagementSystem\\Views\\Members\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T19:00:10.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Edit.cshtml",
               "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Trainers\\Edit.cshtml",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Edit.cshtml",
               "RelativeToolTip": "GymManagementSystem\\Views\\Trainers\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-26T21:22:12.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Details.cshtml",
               "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Trainers\\Details.cshtml",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Details.cshtml",
               "RelativeToolTip": "GymManagementSystem\\Views\\Trainers\\Details.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-26T21:20:07.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Delete.cshtml",
               "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Trainers\\Delete.cshtml",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Delete.cshtml",
               "RelativeToolTip": "GymManagementSystem\\Views\\Trainers\\Delete.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-26T21:19:12.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Create.cshtml",
               "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Trainers\\Create.cshtml",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Create.cshtml",
               "RelativeToolTip": "GymManagementSystem\\Views\\Trainers\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-26T21:14:03.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "MembersController.cs",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Controllers\\MembersController.cs",
               "RelativeDocumentMoniker": "GymManagementSystem\\Controllers\\MembersController.cs",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Controllers\\MembersController.cs",
               "RelativeToolTip": "GymManagementSystem\\Controllers\\MembersController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAIA8wFIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAnwFIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T20:44:12.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Index.cshtml",
               "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Members\\Index.cshtml",
               "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Index.cshtml",
               "RelativeToolTip": "GymManagementSystem\\Views\\Members\\Index.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-26T20:32:50.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Members\\Edit.cshtml",
+              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Members\\Edit.cshtml",
+              "RelativeToolTip": "GymManagementSystem\\Views\\Members\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T19:03:26.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Member.cs",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Models\\Member.cs",
               "RelativeDocumentMoniker": "GymManagementSystem\\Models\\Member.cs",
@@ -157,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Shared\\_Layout.cshtml",
@@ -169,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "site.css",
               "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "GymManagementSystem\\wwwroot\\css\\site.css",
@@ -179,6 +234,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-26T20:15:36.463Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Index.cshtml",
+              "RelativeDocumentMoniker": "GymManagementSystem\\Views\\Trainers\\Index.cshtml",
+              "ToolTip": "E:\\Vishal CSharp\\GymManagementSystem\\GymManagementSystem\\Views\\Trainers\\Index.cshtml",
+              "RelativeToolTip": "GymManagementSystem\\Views\\Trainers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T21:22:48.482Z"
             }
           ]
         }
