@@ -4,9 +4,12 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<div class="main-overlay">
+    <div class="form-card">
 
-<h3>Are you sure you want to delete this?</h3>
+        <h2 class="mb-4">🏋️ Remove Membership Plan</h2>
+
+<h3>Are you sure you want to remove this?</h3>
 <div>
     <h4>MembershipPlan</h4>
     <hr />
@@ -34,6 +37,8 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="MembershipPlanId" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <a asp-action="Index" class="btn btn-primary">Back to List</a>
     </form>
+</div>
+</div>
 </div>

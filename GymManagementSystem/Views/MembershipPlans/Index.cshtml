@@ -4,44 +4,51 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<div class="main-overlay">
+    <div class="gym-card">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="text-white">🏋️ Membership Plans</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.PlanName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DurationInMonths)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.PlanName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DurationInMonths)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.MembershipPlanId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MembershipPlanId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MembershipPlanId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+            <a asp-action="Create" class="btn btn-success">
+                ➕ Add New Plans
+            </a>
+        </div>
+        <table class=" table table-dark table-hover shadow-lg rounded" ">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PlanName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DurationInMonths)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PlanName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DurationInMonths)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.MembershipPlanId">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.MembershipPlanId">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.MembershipPlanId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
