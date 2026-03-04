@@ -128,6 +128,13 @@ namespace GymManagementSystem.Controllers
             {
                 try
                 {
+                    var plan = await _context.MembershipPlans
+                   .FindAsync(member.MembershipPlanId);
+
+                    member.ExpiryDate =
+                        member.JoinDate.AddMonths(plan.DurationInMonths);
+
+                    member.IsActive = member.ExpiryDate >= DateTime.Now;
                     _context.Update(member);
                     await _context.SaveChangesAsync();
                 }
