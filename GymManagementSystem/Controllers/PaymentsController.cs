@@ -62,8 +62,11 @@ namespace GymManagementSystem.Controllers
         {
             if (ModelState.IsValid)
             {
+                payment.PaymentDate = DateTime.Now;
+
                 _context.Add(payment);
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
             ViewData["MemberId"] = new SelectList(_context.Members, "MemberId", "FullName", payment.MemberId);
