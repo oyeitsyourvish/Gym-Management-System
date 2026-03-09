@@ -102,3 +102,34 @@ table {
     padding: 8px 20px;
 }
 
+
+/* ---------- GYM NAVBAR ---------- */
+
+.gym-navbar {
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(8px);
+    border-bottom: 2px solid #00ff99;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    color: #00ff99 !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: white !important;
+    margin-right: 10px;
+}
+
+    .nav-link:hover {
+        color: #00ff99 !important;
+    }
+
+.navbar-brand img {
+    border-radius: 8px;
+}
+
+.navbar-brand span {
+    font-size: 20px;
+}
